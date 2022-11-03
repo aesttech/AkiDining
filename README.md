@@ -1,6 +1,2 @@
-# AkiDining
-
-
-
-
-FBLA Project by Hayden Gaines and Logan Linston
+# Aki-Dining
+FBLA Competitive Project
