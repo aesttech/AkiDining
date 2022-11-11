@@ -259,7 +259,10 @@ section .title::after{
 
 /*food & menu section styling*/
 .download-menu {
-	align-content: center;
+    display: flex;
+	justify-content: center;
+    align-self: center;
+    margin: auto;
 	width: calc(33% - 20px);
     background: #3D3B3B;
     border-radius: 6px;
@@ -318,10 +321,25 @@ a{
 }
 
 /* Subscribe and Call to action styling*/
+.text{
+	font-family: 'Poppins', sans-serif;
+}
 .text2{
 	font-family: 'Poppins', sans-serif;
 }
-
+.call-to-action p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.cto-border {
+    border-style: solid;
+    border-width: 10%;
+    border-radius: 8px;
+    display: inline-flex;
+    border-color: crimson;
+    padding: 7.5px;
+    background-color: crimson;
+}
 .subscribe .subscribe-content .text{
     font-size: 20px;
     font-weight: 600;
